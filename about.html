@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>www.hokma.com</title>
+<style>
+    /* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #22584b;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Static Image Gallery */
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.gallery-item {
+    margin: 0 10px;
+}
+
+.gallery-item img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Button styles */
+.button {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.button,a :hover{
+    background-color: darkgreen;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+</style>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <h1>Computer Academy</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1>About Us</h1>
+        <p>Welcome to Computer Academy. We provide professional computer training for various courses, helping individuals develop their IT skills and career prospects.</p>
+
+        <!-- Static Image Gallery -->
+        <div class="gallery">
+            <div class="gallery-item">
+                <h1>C.E.O</h1>
+                <img src="./images/team1.jpg" alt="Team Image 1">
+            </div>
+            <div class="gallery-item">
+                <h1>Manager</h1>
+                <img src="./images/team2.jpg" alt="Team Image 2">
+            </div>
+            <div class="gallery-item">
+                <h1>Teacher</h1>
+                <img src="./images/team3.jpg" alt="Team Image 3">
+            </div>
+        </div>
+
+        <!-- About Team -->
+        <h2>Our Team</h2>
+        <p>Meet our dedicated and experienced team, committed to providing the best education and guidance to our students.</p>
+
+        <!-- Button Example -->
+       <a href="contact.html"> <button class="button">Join Now</button></a>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-box">
+                <h2>Contact:</h2>
+                <p>Office: 0300-0000000 &nbsp;&nbsp;&nbsp;  Manager: 0300-0000000</p>
+               
+            </div>
+            <div class="footer-box">
+                <h2>Address:</h2>
+                <p>Bhatta Chock Lahore Cant</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
